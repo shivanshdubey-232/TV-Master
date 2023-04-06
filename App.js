@@ -10,7 +10,7 @@ form.addEventListener("submit", async (e) =>{
     for(result of shows)
     {
         const show = document.createElement("a");
-        show.classList.add("card", "mx-2", "my-4", "text-white", "bg-dark", "mb-3", "text-center");
+        show.classList.add("cardshow", "mx-2", "my-4", "text-white", "bg-dark", "mb-3", "text-center");
         if(result.show.image)
         {
             console.dir(result);
