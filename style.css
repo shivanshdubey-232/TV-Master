@@ -40,6 +40,7 @@ body{
 .card-group{
  display:flex;
  justify-content: space-between;
+ overflow: auto;
 }
 .cardshow{
   border-radius: 10px;
